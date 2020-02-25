@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+ <html> 
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel= "stylesheet" href="css/SurveyForm.css"/>
+<html>
+<body>
+<header>
+<h1 id = "title" >Mc Fit Studio</h1>
+  </header>
+ <body>
+    <p id = "description">
+     Tell us what you think!<br><br>We value your thoughts and opinions and use them to make us and the athlete experience better each year. 
+    </p>
+<main>
+ <form id="survey-form" action="">
+
+  <label id="name-label">Name</label><br>
+        <input
+        type = "text" 
+        name ="name"
+       id = "name"placeholder="Enter your name" required><br>
+     
+  <label id = "last-name"> Last Name</label><br>
+      <input
+        type = "text"
+        name = "last-name"
+        id = "last-name"
+        placeholder = "Enter your Last Name" required ><br>
+    
+  <label id = "email-label"> Email <br></label>
+      <input
+        type = "email"
+        name = "email"
+        id = "email"
+        placeholder="Enter your Email" required><br>
+  <label id = "number-label"> Age <br></label>
+      <input
+        type = "number"
+        name = "age"
+        id = "number"
+        min = "010"
+        max = "120"
+        placeholder = "Age"required><br>
+          
+              
+      <p>How long have you been a member at McFS?</p>
+      <select id = "dropdown" required>
+        <option disabled selected value>Select </option>
+        <option value = "6"> 6 months or less</option>
+        <option value = "12"> 6 months to 1 year</option>
+        <option value = "30"> 1 year to 2.5 years</option>
+        <option value = "40"> 2.5 years +</option>
+      </select> 
+   
+    <p>What is your average routine at McFS?</p>
+      <select id = "dropdown" required>
+      <option disabled selected value>Select </option>
+      <option value = "1"> 1-2 times per week</option>
+      <option value ="2"> 3 times per week</option>
+      <option value = "3"> 4 times per week</option>
+      <option value = "4"> 5 - 5+ times per week</option>
+      </select>
+  
+      <p>Have you seen results after the workout?</p>
+      <label><input    
+          type = "radio"
+          name = "results"
+          value = "yes"
+          checked
+        />Yes</label>
+      <label><input
+          type = "radio"
+          name = "results"
+          value = "no"
+        />No</label>
+      <label><input
+          type = "radio"
+          name = "results" 
+          value = "not sure"     
+        />Not sure</label>
+
+    <p> If we were to carry retail products at McFS, what would you chose from this list? </p>
+      <label><input
+         name = "carry retail products"
+         type = "checkbox"
+         value = "Workout clothing (pants, shorts etc.." />Workout clothing (pants, shorts etc..)<br></label>
+    <input
+          name = "carry retail products"
+          type = "checkbox"
+          value = "Post workout shake"/>Post workout shake<br></label>
+   <input
+          name = "carry retail products"
+          type = "checkbox"
+          value = "Bottled watere"
+                />Bottled water<br></label>
+   <input
+          name = "carry retail products"
+          type = "checkbox"
+          value = "Fish Oil"
+                />Fish Oil<br></label>
+   <input
+          name = "carry retail products"
+          type = "checkbox"
+          value = "Trigger Point products"
+                />Trigger Point products</label>
+
+  <p> What is one thing you would change or your biggest concern?</p>
+      <textarea
+        name = "comment"
+        placeholder = "Enter your comment..."></textarea><br>
+      
+      <button type = "submit" id = "submit">Submit </button>
+  </form> 
+ </main>
+ 	<footer>
+    <p>Copyright &#169; <time datetime="2019">2019</time> by I.C. All rights reserved.</p>
+		<p>See the code on <a href="https://codepen.io/cruduiuliana/pen/ZEELmxd"> codepen</a><p> 
+  </footer>
+</body>
+</html>
+    
+<!--https://upload.wikimedia.org/wikipedia/commons/e/e3/TwoDumbbells.JPG"__background imag backup link-->
